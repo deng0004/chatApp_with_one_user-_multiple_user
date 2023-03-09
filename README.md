@@ -21,7 +21,8 @@ Client           <----Websocket-->      Server
                             
                                 ReactJs(Client)
                                 
-/Users as client
+/Users as (client) 
+
 client 1                 
 client 2                 
 client 3
@@ -39,12 +40,15 @@ client 1
 client 2                 
 client 3
 
-(private-chat/(user))
-/client 1
+
+(private-chat/(user)
+/client 1  
 client 1
 
-/client 2
+(private-chat/(user)
+/client 2  
 client 2
 
-/client 3
+(private-chat/(user)
+/client 3  
 client 3
