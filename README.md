@@ -1,7 +1,7 @@
 # chatApp_with_one_user-_multiple_user
 
 This is an exmaple of real time chat app which is written in React.js, HTML, CSS for Frontend, it acted as a client.
-Spring Boot as Backend, it acted as a server.
+Spring Boot is used for Backend, it acted as a server.
 
 
 The following tools were used. 
