@@ -9,22 +9,29 @@ The following tools were used.
 STOMP, which is refer to Simple Text Orientated Messaging Protocol. It will be used for clients to communicate with any message broker to provide message to platforms and brokers. 
 
 
+                                      
+Client           ------Request--->     Server
 
- ______                                       ______
-|      |           ------Request--->         |      |
-|Client|           <----Handshake---         |Server|
-|______|           <----Websocket-->         |______| 
+Client           <----Handshake---      Server
+
+Client           <----Websocket-->      Server 
 
                             
                             
                             
                                 ReactJs(Client)
-client1
-client2
-client3
+                                
+/Users as client
+client 1                 
+client 2                 
+client 3
 
-                                  (STOMP)
-                                  
+                                                                         
+                                  STOMP 
+connection
+                                 
+                                
+                                
 
                                 Spring(Server)
 /Chatroom (public-chat)  
